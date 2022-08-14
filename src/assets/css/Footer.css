@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.footer__wrapper {
+  background-color: #f0eeee;
+  width: 100%;
+  margin-top: 0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  max-width: 960px;
+  height: 320px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  z-index: 0;
+}
+
+.footer__logoImg {
+  width: 40px;
+  height: 30px;
+}
+
+.footer__logo_name {
+  margin-top: 18px;
+  font-weight: 800;
+  margin-left: 0;
+}
+
+.services__links {
+  height: 140px;
+}
+
+.services__links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.company__links ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 14px;
+}
+
+.footer-company {
+  margin-bottom: 14px;
+}
+
+.footer-services {
+  margin-bottom: 14px;
+}
+
+.services__links ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 14px;
+}
+
+.footer__copyright {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-left: 10px;
+  border-top: 1px #dbdbdb;
+}
+
+.social__links {
+  display: flex;
+}
